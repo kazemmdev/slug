@@ -28,5 +28,5 @@ Slug::handle(string: 'SamPle-tExt'); // 'sample-text'
 Slug::handle(string: 'نمونه متن'); // 'نمونه-متن'
 Slug::handle(string: 'عينة النص'); // 'عينة-النص'
 Slug::handle(string: 'عينةْ اًلنصٌ'); // 'عينة-النص'
-Slug::handle(string: 'sample text', separator:  '+'); //
+Slug::handle(string: 'sample text', separator:  '+'); // 'sample-text'
 ```
