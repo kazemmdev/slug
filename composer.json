@@ -1,0 +1,53 @@
+{
+  "name": "kazemmdev/slug",
+  "description": "A simple slug generator",
+  "keywords": [
+    "php",
+    "slug",
+    "en",
+    "fa",
+    "ar"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kazem Mirzaei",
+      "email": "k90mirzaei@gmail.com",
+      "homepage": "https://kazemm.dev",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kazemmdev\\Slug\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Kazemmdev\\Tests\\Slug\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require-dev": {
+    "pestphp/pest": "2.x-dev"
+  },
+  "scripts": {
+    "test": "./vendor/bin/pest",
+    "test-coverage": "./vendor/bin/pest --coverage"
+  },
+  "scripts-descriptions": {
+    "test": "Run pestPHP test suite",
+    "test-coverage": "Run pestPHP test suite with coverage report"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true,
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
